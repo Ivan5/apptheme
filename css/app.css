@@ -42,3 +42,43 @@ img{
   border-bottom: 3px solid #B71C1C;
   padding-bottom: 3px;
 }
+
+/*showcase*/
+#showcase{
+  background: url('../img/showcase.jpg') no-repeat center center;
+  background-size: cover;
+  border-bottom: 1px solid #B71C1C;
+  margin-bottom: 30px;
+}
+#showcase .row{
+  height: 600px;
+}
+#showcase h1{
+  font-size: 50px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+#showcase p{
+  color: #ccc;
+  margin: 0;
+}
+#showcase .showcase-content{
+  background: #333;
+  color: #fff;
+  border-radius: 90px;
+  padding: 40px;
+  opacity: 0.9;
+}
+
+/*Media Queries*/
+@media(max-width:800px){
+  #showcase h1{
+    font-size: 30px;
+  }
+}
+
+@media(max-width:500px){
+  #showcase .showcase-content{
+    padding: 40px 10px;
+  }
+}
