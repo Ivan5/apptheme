@@ -1,6 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500,700');
+body{
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
 img{
   width: 100%;
 }
 .container{
   margin: auto;
+}
+/* Commun classes*/
+.primary-text{
+  color: #B71C1C;
+}
+.primary-background{
+  background: #B71C1C;
+}
+/*Header*/
+#main-header{
+  border-bottom: 1px solid #B71C1C;
+}
+
+/*Navbar*/
+#navbar{
+  text-transform: uppercase;
+}
+#navbar li{
+  display: inline;
+  padding-right: 20px;
+  list-style: none;
+}
+#navbar a{
+  text-decoration: none;
+  color: #888;
+}
+#navbar li.current a, #navbar a:hover{
+  color: #B71C1C;
+  border-bottom: 3px solid #B71C1C;
+  padding-bottom: 3px;
 }
